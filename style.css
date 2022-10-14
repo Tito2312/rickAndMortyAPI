@@ -3,19 +3,49 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'fuenteRick';
+    src: url(/fuentes/get_schwifty.ttf);
+}
+
 body {
 
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
 header {
     width: 100%;
-    height: 20%;
+    height: 440px;
     display: flex;
     justify-content: center;
     align-items:center;
+    font-family: 'fuenteRick';
+    font-size: 150px;
+    color: #00b0c8;
+    text-shadow: 1px 1px 0 #cbde7c, 1px -1px 0 #cbde7c, -1px 1px 0 #cbde7c, -1px -1px 0 #cbde7c ;
+    background: url(img/1280x720-Rick-Morty-Wallpaper-SpeedPaint.jpg);
+    background-size: cover;
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+#input{
+
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    margin: 2%;
+
 }
 
 .container-cards{
@@ -23,16 +53,56 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #000000;
     
 }
 .content {
-    width: 400px;
-    height: 350px;
-    background-color:blue;
+    width: 31.3%;
+    height: 290px;
+    background-color:rgb(94, 94, 94);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     margin: 1%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cardContent{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    font-family: 'fuenteRick';
+    text-shadow: 1px 1px 0 #cbde7c, 1px -1px 0 #cbde7c, -1px 1px 0 #cbde7c, -1px -1px 0 #cbde7c ;
+    color: #00b0c8;
+    
+}
+
+.names{
+
+    font-size: 35px;
+}
+
+.species{
+    font-size: 25px;
+}
+
+.containerImg{
+
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.images{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 0 20px 20px 0 ;
 }
 
 
