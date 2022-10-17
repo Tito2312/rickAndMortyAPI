@@ -33,7 +33,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    background-color: rgb(32, 35, 41);
 }
 
 #input{
@@ -49,17 +49,17 @@ main{
 }
 
 .container-cards{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #000000;
+    background-color: rgb(32, 35, 41);
     
 }
 .content {
     width: 31.3%;
     height: 290px;
-    background-color:rgb(94, 94, 94);
+    background-color:#3d3d3f;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

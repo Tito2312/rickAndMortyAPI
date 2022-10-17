@@ -3,7 +3,7 @@ const searcher = document.getElementById('input');
 const URL = 'https://rickandmortyapi.com/api/character'
 
 window.addEventListener("DOMContentLoaded", getApi)
-searcher.addEventListener("keypress", search)
+searcher.addEventListener("keyup", search)
 
 function getApi(){
     fetch(URL)
