@@ -16,17 +16,39 @@ body {
 }
 header {
     width: 100%;
-    height: 440px;
+    height: 490px;
     display: flex;
     justify-content: center;
     align-items:center;
-    font-family: 'fuenteRick';
-    font-size: 150px;
-    color: #00b0c8;
-    text-shadow: 1px 1px 0 #cbde7c, 1px -1px 0 #cbde7c, -1px 1px 0 #cbde7c, -1px -1px 0 #cbde7c ;
-    background: url(img/1280x720-Rick-Morty-Wallpaper-SpeedPaint.jpg);
-    background-size: cover;
+    background-color: #262C3A;
+    
 }
+
+.rick {
+
+    width: 50%;
+    height: 50vh;
+    margin-right: 50rem;
+    margin-left: 10rem;
+}
+.copia{
+    width: 50%;
+    height: 50vh;
+    margin-left: 50rem;
+    
+}
+
+h1{
+    font-family: 'fuenteRick';
+    font-size: 180px;
+    color: #00b0c8;
+    text-shadow: 3px 3px 10px #87E572, 3px -2px 15px #87E572, -1px 3px 15px #87E572, -2px 3px 15px #87E572 ;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.809);
+    -webkit-text-fill-color: 1px #000000;
+    position: absolute;
+}
+
+
 main{
 
     display: flex;
